@@ -15,7 +15,7 @@ messageboard = Thredded::Messageboard.create!(
 Thredded::TopicForm.new(
     title: 'My first topic',
     content: MARKDOWN,
-"Hello world! smile This first post shows some of the Thredded default post
-formatting functionality.""
+'Hello world! smile This first post shows some of the Thredded default post
+formatting functionality.'
 
 )
