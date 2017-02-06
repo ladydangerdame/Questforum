@@ -4,7 +4,8 @@
 .app {
   @include thredded--clearfix;
   -webkit-font-smoothing: antialiased;
-  color: $text-color;
+  background-color: $thredded-background-color;
+  color: $thredded-text-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -33,7 +34,7 @@
 }
 
 .app-nav-logo {
-  color: $text-color;
+  color: $thredded-text-color;
   text-decoration: none;
   font-weight: bold;
 }
@@ -52,7 +53,7 @@
 }
 
 .turbolinks-progress-bar {
-  background-color: $brand-primary;
+  background-color: $thredded-brand;
   height: 0.25rem;
 }
 
@@ -62,7 +63,7 @@
 
 .form-inputs {
   .hint {
-    color: $secondary-text-color;
+    color: $thredded-secondary-text-color;
   }
   .error {
     @extend %thredded--alert;

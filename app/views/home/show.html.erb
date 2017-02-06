@@ -1,7 +1,7 @@
-<h1>Welcome to your new Rails app with Thredded! 🎉</h1>
+<h1>Welcome to our very own questing forum!</h1>
 
 <% unless Rails.env.production? %>
-  <p>You can now:</p>
+  <p>You can:</p>
 
   <ul>
     <li>
@@ -9,40 +9,28 @@
         <b><%= link_to t('nav.forums'), thredded.root_path %></b>.
       </p>
     </li>
-    <li>
+  </ul>
       <p>
-        <b><%= link_to 'Log in', new_user_session_path %></b> as
-        <code>admin@questforum.com</code>
-        with password <code>123456</code>.
+      Posting FB group text here for info and filler: I spoke to Dave, and he'll be posting some useful info in the FB group. He wants to hold a guided session for character creation, deliver his campaign / setting synopsis, and begin us on an introductory quest! In order to expedite things, I'll be acting as coordinator / technical liason while Dave will be focusing on all the creative goodness.
+
+As mentioned I've created an isolated DnD Discord server here to make discord easier to navigate: <a>https://discord.gg/Q6Y57mv</a>
+
+There is only one text, one voice channel and the server is private.</p>
+
+<h3>What I know so far:</h3>
+<ul>
+<li>
+As mentioned, this will be very open ended, with less focus on the intricacies of rules and more focus on having fun with friends. A good way to get some of the folks new to RPGs eased in.</li>
+<li>Character creation will not be going strictly by the basic players handbook, there will be some flexibilty as the races and classes. If you can think it, it is likely you can play it. Let your imagination run wild.</li>
+<li>This will be a high fantasy setting, pre-gunpowder. Think Age of Conan. There is magic and alchemy that may rival gunpowder however.</li>
+<li>Basic back-end mechanics will be centered around DnD 5e</li>
+</ul>
+<p>
+
+And as much as I hate to say it, there isn't room for anyone else really so this is a little exclusive. We've got 9 adventurers which makes for a BIG party, there isn't room for any more!</p>
+
+<p>
+Looking forward to seeing you guys theres, please feel free to contact Dave or I with any questions!
       </p>
-    </li>
-    <li>
-      <p>Edit this page at <code>app/views/home/show.html.erb</code>.</p>
-    </li>
-  </ul>
 
-  <hr>
-  <p>Your app uses:</p>
-  <ul>
-    <li><%= ActiveRecord::Base.connection.adapter_name %> database.</li>
-    <li>
-      <a href="http://rubyonrails.org/">Ruby on Rails</a>
-      v<%= Rails::VERSION::STRING %>.
-    </li>
-    <li>
-      <a href="https://github.com/plataformatec/devise">Devise</a>
-      v<%= require 'devise/version'; Devise::VERSION %> for authentication.
-    </li>
-    <li>
-      <a href="https://github.com/thredded/thredded">Thredded</a>
-      v<%= Thredded::VERSION %> as the forums engine.
-    </li>
-    <li>Sass for your styles.</li>
-    <li>RSpec for testing.</li>
-  </ul>
-
-  Created with
-  <a href="https://github.com/thredded/thredded_create_app">
-    thredded_create_app
-  </a> v0.1.6.
 <% end %>
